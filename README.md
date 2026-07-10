@@ -1,2 +1,27 @@
-# SoftGrowTech_Spam_Detector_Task-01
-## Overview  The **Spam Message Detector** is a Python-based Machine Learning project that detects whether a message is **Spam** or **Ham**. It uses **TF-IDF** and the **Naive Bayes** algorithm to classify messages accurately through a simple and user-friendly interface.
+# Spam Message Detector
+
+A Machine Learning based Spam Message Detector developed in Python using TF-IDF and Naive Bayes.
+
+## Features
+
+- Spam & Ham Classification
+- Message Cleaning
+- TF-IDF Vectorizer
+- Naive Bayes Classifier
+- Accuracy Report
+- Classification Report
+- Confusion Matrix
+- Spam Probability
+- Interactive Menu
+
+## Libraries
+
+- pandas
+- scikit-learn
+- joblib
+
+## Run
+
+```bash
+python spam_detector.py
+```
