@@ -1,27 +1,48 @@
 # Spam Message Detector
 
-A Machine Learning based Spam Message Detector developed in Python using TF-IDF and Naive Bayes.
+## Overview
+
+The **Spam Message Detector** is a Python-based Machine Learning project that classifies SMS messages as **Spam** or **Ham** using the **TF-IDF** technique and the **Multinomial Naive Bayes** algorithm.
+
+## Technologies Used
+
+* Python
+* Pandas
+* Scikit-learn
+* Joblib
 
 ## Features
 
-- Spam & Ham Classification
-- Message Cleaning
-- TF-IDF Vectorizer
-- Naive Bayes Classifier
-- Accuracy Report
-- Classification Report
-- Confusion Matrix
-- Spam Probability
-- Interactive Menu
+* Detects Spam and Ham messages
+* Text preprocessing and cleaning
+* TF-IDF text vectorization
+* Machine Learning-based prediction
+* Displays model accuracy
+* Classification report and confusion matrix
+* Supports single and multiple message prediction
 
-## Libraries
+## How to Run
 
-- pandas
-- scikit-learn
-- joblib
+1. Install the required libraries:
 
-## Run
+   ```
+   pip install -r requirements.txt
+   ```
+2. Place the `spam.csv` dataset in the project folder.
+3. Run the project:
 
-```bash
-python spam_detector.py
+   ```
+   python spam_detector.py
+   ```
+4. Select an option from the menu to train the model or classify messages.
+
+## Project Structure
+
+```text
+Spam-Message-Detector/
+│── spam_detector.py
+│── spam.csv
+│── requirements.txt
+│── README.md
+│── spam_model.pkl (generated automatically)
 ```
